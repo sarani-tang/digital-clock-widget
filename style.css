@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Jersey 10';
+    src: url('assets/fonts/Jersey10-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -36,4 +43,52 @@ textarea,
 select {
     -webkit-app-region: no-drag;
     cursor: pointer;
+}
+
+
+#date {
+    border-radius: 1.5625rem;
+    width: 13.5625rem;
+    height: 3.0625rem;
+    border: 5px solid #FEDFDF;
+    background: #FEB9B9;
+    margin: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* text styling */
+    color: #FFF;
+    text-align: center;
+    font-family: "Jersey 10";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#time {
+    border-radius: 1.875rem;
+    width: 13.5625rem;
+    height: 9.875rem;
+    border: 5px solid #FEDFDF;
+    background: #FEB9B9;
+    margin: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* text styling */
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Jersey 10";
+    font-size: 7.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
