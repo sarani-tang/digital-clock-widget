@@ -6,22 +6,19 @@ My Figma design file for the desktop widget: https://www.figma.com/design/Qgr8oT
 
 ## How to use this widget
 
-### 1. Clone this repo.
-
+1. Clone this repo.
 ```
 git clone https://github.com/sarani-tang/digital-clock-widget.git
 cd digital-clock-widget
 ```
 
-### 2. Make sure Node.js is installed, then run:
-
+2. Make sure Node.js is installed, then run:
 ```
 npm install
 ```
-This will install ElectronJS. 
+This will install ElectronJS if not already installed. 
 
-### 3. Run the widget locally.
-
+3. Run the widget locally.
 ```
 npm run start
 ```
